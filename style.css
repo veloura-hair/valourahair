@@ -1,12 +1,12 @@
 body{
 margin:0;
 font-family:Poppins, Arial;
-background:#ffe4ec;
-color:#4b002e;
+background:#800020;
+color:white;
 }
 
 header{
-background:#ff4f87;
+background:#800020;
 padding:20px;
 text-align:center;
 color:white;
@@ -32,6 +32,7 @@ font-weight:bold;
 .hero{
 text-align:center;
 padding:60px 20px;
+background:#800020;
 }
 
 .hero h2{
@@ -40,10 +41,11 @@ font-size:42px;
 
 .hero p{
 font-size:20px;
+color:#ffd6e6;
 }
 
 .button{
-background:#800020;
+background:#ff4f87;
 color:white;
 padding:15px 30px;
 text-decoration:none;
@@ -51,6 +53,7 @@ border-radius:10px;
 font-size:20px;
 display:inline-block;
 margin-top:20px;
+font-weight:bold;
 }
 
 .products{
@@ -58,6 +61,7 @@ display:grid;
 grid-template-columns:1fr;
 gap:25px;
 padding:30px;
+background:#800020;
 }
 
 .card{
@@ -65,7 +69,8 @@ background:white;
 border-radius:15px;
 padding:25px;
 text-align:center;
-box-shadow:0 10px 20px rgba(0,0,0,0.1);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+color:#800020;
 }
 
 .card h3{
@@ -75,7 +80,7 @@ font-size:26px;
 .price{
 font-size:22px;
 font-weight:bold;
-color:#800020;
+color:#ff4f87;
 }
 
 footer{
@@ -84,4 +89,5 @@ color:white;
 text-align:center;
 padding:20px;
 margin-top:40px;
+font-size:18px;
 }
