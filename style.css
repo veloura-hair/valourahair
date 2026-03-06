@@ -1,91 +1,63 @@
 body{
+font-family: Arial;
 margin:0;
-font-family: 'Poppins', Arial, sans-serif;
-background:#fff0f6;
-color:#333;
+background:#fff0f5;
 }
 
-/* HEADER */
-
 header{
-background:#8b1c3d;
+display:flex;
+justify-content:space-between;
+align-items:center;
 padding:20px;
-text-align:center;
+background:#ff4da6;
 }
 
 .logo{
-font-size:40px;
-color:white;
-font-weight:bold;
-letter-spacing:2px;
-}
-
-nav{
-margin-top:10px;
+width:120px;
 }
 
 nav a{
-color:white;
+margin:10px;
 text-decoration:none;
-margin:0 15px;
 font-size:18px;
+color:white;
 font-weight:bold;
 }
 
-/* HERO */
-
 .hero{
-background:linear-gradient(#ffb6c1,#ffd6e8);
-padding:100px 20px;
 text-align:center;
+padding:120px;
+background:#ffd6e7;
 }
 
 .hero h1{
-font-size:55px;
-color:#8b1c3d;
+font-size:48px;
+color:#800020;
 }
 
-.hero p{
-font-size:22px;
-}
-
-.button{
-background:#8b1c3d;
+.shopbtn{
+padding:15px 30px;
+background:#800020;
 color:white;
-padding:15px 35px;
 text-decoration:none;
 font-size:20px;
-border-radius:30px;
-display:inline-block;
-margin-top:20px;
+border-radius:6px;
 }
-
-/* PRODUCTS */
 
 .products{
-padding:60px 20px;
-text-align:center;
-}
-
-.products h2{
-font-size:40px;
-color:#8b1c3d;
-}
-
-.product-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:30px;
-max-width:1100px;
-margin:auto;
-margin-top:40px;
+padding:50px;
+display:flex;
+gap:40px;
+justify-content:center;
 }
 
 .product{
 background:white;
 padding:20px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+border-radius:10px;
+width:220px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 .product img{
@@ -93,20 +65,12 @@ width:100%;
 border-radius:10px;
 }
 
-.product h3{
-font-size:22px;
-}
-
-.price{
-color:#8b1c3d;
-font-size:20px;
-font-weight:bold;
-}
-
-footer{
-background:#8b1c3d;
+.product a{
+display:block;
+margin-top:10px;
+background:#25D366;
 color:white;
-text-align:center;
-padding:20px;
-margin-top:60px;
+padding:10px;
+text-decoration:none;
+border-radius:5px;
 }
