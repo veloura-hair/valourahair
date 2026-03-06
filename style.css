@@ -1,18 +1,112 @@
 body{
-background:black;
-color:white;
-font-family:Arial;
+margin:0;
+font-family: 'Poppins', Arial, sans-serif;
+background:#fff0f6;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:#8b1c3d;
+padding:20px;
 text-align:center;
+}
+
+.logo{
+font-size:40px;
+color:white;
+font-weight:bold;
+letter-spacing:2px;
+}
+
+nav{
+margin-top:10px;
 }
 
 nav a{
 color:white;
-margin:15px;
 text-decoration:none;
+margin:0 15px;
+font-size:18px;
+font-weight:bold;
 }
 
-.whatsapp{
-background:gold;
-padding:10px 20px;
-color:black;
+/* HERO */
+
+.hero{
+background:linear-gradient(#ffb6c1,#ffd6e8);
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:55px;
+color:#8b1c3d;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.button{
+background:#8b1c3d;
+color:white;
+padding:15px 35px;
+text-decoration:none;
+font-size:20px;
+border-radius:30px;
+display:inline-block;
+margin-top:20px;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:60px 20px;
+text-align:center;
+}
+
+.products h2{
+font-size:40px;
+color:#8b1c3d;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+max-width:1100px;
+margin:auto;
+margin-top:40px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product img{
+width:100%;
+border-radius:10px;
+}
+
+.product h3{
+font-size:22px;
+}
+
+.price{
+color:#8b1c3d;
+font-size:20px;
+font-weight:bold;
+}
+
+footer{
+background:#8b1c3d;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:60px;
 }
