@@ -1,12 +1,12 @@
 body{
 margin:0;
 font-family:Poppins, Arial;
-background:#800020;
+background:#5a0018;
 color:white;
 }
 
 header{
-background:#800020;
+background:#5a0018;
 padding:20px;
 text-align:center;
 color:white;
@@ -32,7 +32,7 @@ font-weight:bold;
 .hero{
 text-align:center;
 padding:60px 20px;
-background:#800020;
+background:#5a0018;
 }
 
 .hero h2{
@@ -41,11 +41,11 @@ font-size:42px;
 
 .hero p{
 font-size:20px;
-color:#ffd6e6;
+color:#e6cdd5;
 }
 
 .button{
-background:#ff4f87;
+background:black;
 color:white;
 padding:15px 30px;
 text-decoration:none;
@@ -61,7 +61,7 @@ display:grid;
 grid-template-columns:1fr;
 gap:25px;
 padding:30px;
-background:#800020;
+background:#5a0018;
 }
 
 .card{
@@ -70,7 +70,7 @@ border-radius:15px;
 padding:25px;
 text-align:center;
 box-shadow:0 10px 20px rgba(0,0,0,0.2);
-color:#800020;
+color:#5a0018;
 }
 
 .card h3{
@@ -80,11 +80,11 @@ font-size:26px;
 .price{
 font-size:22px;
 font-weight:bold;
-color:#ff4f87;
+color:black;
 }
 
 footer{
-background:#ff4f87;
+background:black;
 color:white;
 text-align:center;
 padding:20px;
