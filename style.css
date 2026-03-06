@@ -1,62 +1,18 @@
 body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#0b0b0b;
-    color:white;
-}
-
-header{
-    background:black;
-    padding:20px;
-    text-align:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-    color:#d4af37;
+background:black;
+color:white;
+font-family:Arial;
+text-align:center;
 }
 
 nav a{
-    margin:0 15px;
-    text-decoration:none;
-    color:white;
+color:white;
+margin:15px;
+text-decoration:none;
 }
 
-.hero{
-    text-align:center;
-    padding:80px 20px;
-}
-
-.button{
-    background:#d4af37;
-    padding:15px 25px;
-    color:black;
-    text-decoration:none;
-    display:inline-block;
-    margin-top:20px;
-    font-weight:bold;
-}
-
-.products{
-    text-align:center;
-    padding:40px;
-}
-
-.product{
-    margin:25px;
-    padding:20px;
-    border:1px solid #333;
-}
-
-.price{
-    color:#d4af37;
-    font-size:20px;
-}
-
-footer{
-    background:black;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
+.whatsapp{
+background:gold;
+padding:10px 20px;
+color:black;
 }
