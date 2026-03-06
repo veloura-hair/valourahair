@@ -1,76 +1,87 @@
 body{
-font-family: Arial;
 margin:0;
-background:#fff0f5;
+font-family:Poppins, Arial;
+background:#ffe4ec;
+color:#4b002e;
 }
 
 header{
-display:flex;
-justify-content:space-between;
-align-items:center;
+background:#ff4f87;
 padding:20px;
-background:#ff4da6;
+text-align:center;
+color:white;
 }
 
-.logo{
-width:120px;
+header h1{
+margin:0;
+font-size:40px;
+}
+
+nav{
+margin-top:10px;
 }
 
 nav a{
-margin:10px;
-text-decoration:none;
-font-size:18px;
 color:white;
+text-decoration:none;
+margin:10px;
+font-size:20px;
 font-weight:bold;
 }
 
 .hero{
 text-align:center;
-padding:120px;
-background:#ffd6e7;
+padding:60px 20px;
 }
 
-.hero h1{
-font-size:48px;
-color:#800020;
+.hero h2{
+font-size:42px;
 }
 
-.shopbtn{
-padding:15px 30px;
+.hero p{
+font-size:20px;
+}
+
+.button{
 background:#800020;
 color:white;
+padding:15px 30px;
 text-decoration:none;
+border-radius:10px;
 font-size:20px;
-border-radius:6px;
+display:inline-block;
+margin-top:20px;
 }
 
 .products{
-padding:50px;
-display:flex;
-gap:40px;
-justify-content:center;
+display:grid;
+grid-template-columns:1fr;
+gap:25px;
+padding:30px;
 }
 
-.product{
+.card{
 background:white;
-padding:20px;
-border-radius:10px;
-width:220px;
+border-radius:15px;
+padding:25px;
 text-align:center;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
 }
 
-.product img{
-width:100%;
-border-radius:10px;
+.card h3{
+font-size:26px;
 }
 
-.product a{
-display:block;
-margin-top:10px;
-background:#25D366;
+.price{
+font-size:22px;
+font-weight:bold;
+color:#800020;
+}
+
+footer{
+background:#ff4f87;
 color:white;
-padding:10px;
-text-decoration:none;
-border-radius:5px;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
