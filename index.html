@@ -2,23 +2,30 @@
 <html>
 
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Valoura Hair</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Valoura Hair</h1>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="shop.html">Shop</a>
-<a href="affordable.html">Affordable</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
+<a href="#">Home</a>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
 </nav>
+
 </header>
+
 
 <section class="hero">
 
@@ -26,13 +33,132 @@
 
 <p>Premium wigs and bundles delivered with class.</p>
 
-<a class="button" href="https://wa.me/2348166511475">Order On WhatsApp</a>
+<a class="main-btn" href="https://wa.me/2348166511475">Order On WhatsApp</a>
 
 </section>
 
+
+<section id="shop" class="products">
+
+<h2 class="section-title">Shop Our Hair</h2>
+
+<div class="grid">
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/e6Z6Z9x.jpg">
+
+<h3>Brazilian Body Wave</h3>
+
+<p class="price">₦95,000</p>
+
+<button onclick="addToCart('Brazilian Body Wave',95000)">Add To Cart</button>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/Dp4R8GQ.jpg">
+
+<h3>Straight Lace Wig</h3>
+
+<p class="price">₦120,000</p>
+
+<button onclick="addToCart('Straight Lace Wig',120000)">Add To Cart</button>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://i.imgur.com/dqQX1Kk.jpg">
+
+<h3>Deep Wave Bundle</h3>
+
+<p class="price">₦85,000</p>
+
+<button onclick="addToCart('Deep Wave Bundle',85000)">Add To Cart</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="about" class="about">
+
+<h2>About Valoura Hair</h2>
+
+<p>
+
+Valoura Hair provides luxury wigs and premium hair bundles for women who love beauty, confidence, and elegance.
+
+Our mission is simple — deliver high-quality hair that makes every woman feel powerful, beautiful, and confident.
+
+We carefully source our hair to ensure softness, durability, and a flawless look.
+
+Whether you're buying your first wig or adding to your collection, Valoura Hair delivers luxury without compromise.
+
+</p>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p>WhatsApp: +234 816 651 1475</p>
+
+<p>We respond fast and help you choose the perfect hair.</p>
+
+<a class="main-btn" href="https://wa.me/2348166511475">Chat On WhatsApp</a>
+
+</section>
+
+
+
 <footer>
+
 © 2026 Valoura Hair
+
 </footer>
 
+
+
+<div class="cart-btn" onclick="openCart()">
+🛒
+</div>
+
+
+<div class="whatsapp">
+<a href="https://wa.me/2348166511475">💬</a>
+</div>
+
+
+
+<div id="cart">
+
+<h2>Your Cart</h2>
+
+<ul id="cart-items"></ul>
+
+<p id="total"></p>
+
+<button onclick="checkout()">Checkout</button>
+
+<button onclick="closeCart()">Close</button>
+
+</div>
+
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
