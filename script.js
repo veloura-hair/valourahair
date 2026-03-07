@@ -9,6 +9,8 @@ total+=price
 
 updateCart()
 
+showPopup()
+
 }
 
 function updateCart(){
@@ -40,6 +42,16 @@ document.getElementById("cart").style.right="0"
 function closeCart(){
 
 document.getElementById("cart").style.right="-100%"
+
+}
+
+function showPopup(){
+
+let p=document.getElementById("popup")
+
+p.style.display="block"
+
+setTimeout(()=>{p.style.display="none"},1500)
 
 }
 
